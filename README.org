@@ -1,4 +1,8 @@
 * Org Mode Guide
+
+** Intro
+   This is only an introductory guide. Some of the content in this guide came from the Org[fn:1] website.
+
 ** Headlines
    By default, headlines have to start on the left margin and are collapsable with tab
 
@@ -18,3 +22,5 @@
 
 ** Exporting
    C-c C-e will bring up the export manager
+
+[fn:1] The link is: https://orgmode.org
