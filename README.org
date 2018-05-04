@@ -1,0 +1,17 @@
+* Org Mode Guide
+** Headlines
+   By default, headlines have to start on the left margin and are collapsable with tab
+
+** Lists
+   - Unordered list items start with '-', '+', or '*' as bullets
+   - Ordered list items start with '1.' or '1)'
+   - Description list use '::' (with a space before and after) to seperate the term from the description
+*** Lord of the Rings
+    My favorite scenes are (in this order)
+    1. The attack of the Rohirrim
+    2. Eowyn's fight with the witch king
+       + this was already my favorite scene in the book
+       + I really like Miranda Otto.
+    Important actors in this film are:
+    - Elijah Wood :: He plays Frodo
+    - Sean Astin :: He plays Sam, Frodo's friend.
