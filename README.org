@@ -1,3 +1,6 @@
+#+TITLE: Org Mode Guide
+#+AUTHOR: Palmer Cluff
+
 * Org Mode Guide
 
 ** Intro
@@ -5,6 +8,56 @@
 
 ** Headlines
    By default, headlines have to start on the left margin and are collapsable with tab
+
+** Paragraphs
+   This is a paragraph. I can continue writing on this line.
+   Or this line. And it will be within the same paragraph.
+
+   An empty line seperating two sentence blocks will breate a new paragraph.
+   I can also force\\
+   A new line. Or
+   -----
+   A horizontal line.
+
+*** Poetry
+    #+BEGIN_VERSE
+    Great clouds overhead
+    Tiny black birds rise and fall
+    Snow covers Emacs
+
+         -- AlexSchroeder
+    #+END_VERSE
+
+*** Quotes
+    #+BEGIN_QUOTE
+    Everything should be made as simple as possible,
+    but not any simpler -- Albert Einstein
+    #+END_QUOTE
+
+*** Centered Text
+    #+BEGIN_CENTER
+    Everything should be made as simple as possible, \\
+    but not any simpler
+    #+END_CENTER
+
+** Emphasis and Monospace
+   You can make words *bold*, /italic/, _underlined_, =verbatim=, ~code~, and +strike-through+.
+
+** Tables
+   |Name|Phone|Age|
+   |-
+
+   Pushing tab after =|-= will produce this:
+   | Name | Phone | Age |
+   |------+-------+-----|
+   |      |       |     |
+
+   And that in turn will allow to fill out the rest of the fields. Use tab to cycle through.
+   | Name         | Phone | Age |
+   |--------------+-------+-----|
+   | John         |  1234 |  21 |
+   | Jane         |  5678 |  21 |
+   | Palmer Cluff |  1234 |  21 |
 
 ** Lists
    - Unordered list items start with '-', '+', or '*' as bullets
