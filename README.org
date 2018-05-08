@@ -1,5 +1,6 @@
 #+TITLE: Org Mode Guide
 #+AUTHOR: Palmer Cluff
+#+EMAIL: palmercluff@gmail.com
 
 * Org Mode Guide
 
